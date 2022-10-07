@@ -8,11 +8,13 @@ const TextInput = (props) => {
       {type === "text input" ? (
         <input
           type="text"
+          name={type}
           value={input}
           onChange={(event) => setInput(event.target.value)}
         />
       ) : (
         <textarea
+          name={type}
           value={input}
           onChange={(event) => setInput(event.target.value)}
         />

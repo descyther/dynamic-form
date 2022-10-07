@@ -1,4 +1,29 @@
 .Container {
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  margin: 0px;
+  padding: 10px;
+  color: white;
+  background-color: #35373a;
 }
 #Questionnaire {
+  padding: 20px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+input {
+  background: none;
+  background-color: white;
+  font-family: "Open Sans";
+  font-size: 0.75rem;
+  border: none;
+  padding: 5px;
+  font: inherit;
+  outline: inherit;
+  margin: 5px;
 }
